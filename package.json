@@ -1,0 +1,19 @@
+{
+  "name": "state-server-vistar-media",
+  "version": "1.0.0",
+  "description": "State Server! Vistar serves up a mound of geospatial data both internally and to third parties. What we need is a server to tell us which state, if any, a point is in.    Some simplified geometries are included in states.json (so greatly simplified,that some of the smaller ones disappear).",
+  "main": "stateserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node stateserver.js"
+  },
+  "author": "Utsav",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "querystring": "^0.2.0",
+    "url": "^0.11.0"
+  }
+}
